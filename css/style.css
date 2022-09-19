@@ -287,7 +287,8 @@ p{
   text-align: center;
   margin-bottom: 20px;
 }
-.callback_form input{
+.callback_form input,
+.callback_form textarea{
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -295,6 +296,14 @@ p{
   border: none;
   border-bottom: 1px solid #F4F4F4;
   margin-bottom: 30px;
+}
+.callback_form textarea{
+  outline: none;
+  resize: none;
+  box-shadow: none;
+}
+.callback_form textarea:focus{
+  box-shadow: none;
 }
 .callback_form p{
   font-weight: 400;
@@ -336,6 +345,35 @@ p{
   top: 0;
   right: 0;
   z-index: -1;
+}
+.contacts-box a{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 24px;
+}
+.contacts-box p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  max-width: 510px;
+  margin-top: 50px;
+}
+.map{
+  position: relative;
+}
+.map__desc {
+    padding: 70px 50px;
+    background: #fff;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    position: absolute;
+    max-width: 450px;
+    max-height: 330px;
+    right: 15%;
+    bottom: 10%;
 }
 #menuToggle {
   overflow: hidden;
@@ -503,6 +541,51 @@ p{
   text-decoration: none;
   max-width: 422px;
 }
+.primary-btn{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  background: #213379;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 18px 90px;
+}
+.reviews-box{
+  border-bottom: 1px solid #E8E8E8;
+  padding: 30px 0;
+}
+.reviews-box div:first-of-type{
+  max-width: 350px;
+  width: 58%;
+}
+.reviews-box b{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.reviews-box span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9E9E9E;
+}
+.reviews-box P{
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.span-black{
+  color: #000 !important;
+}
+.span-yellow{
+  color: #FFB106 !important;
+}
 @media (min-width: 581px){
   #menuToggle {
     display: none;
@@ -512,6 +595,21 @@ p{
   }
 }
 @media (max-width: 580px){
+  .primary-btn{
+    margin-top: 20px;
+  }
+  .reviews-box{
+    text-align: center;
+  }
+  .reviews-box span{
+    display: block;
+  }
+  .reviews-box div:first-of-type {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
   .tel-box{
     display: none;
   }
@@ -546,6 +644,14 @@ p{
   }
   .nav.active {
     top: 62px;
+  }
+  .map__desc{
+    max-width: 90%;
+    max-height: 330px;
+    right: 0;
+    left: 0;
+    bottom: -5%;
+    margin: auto;
   }
   .nav a{
     color: #fff;
