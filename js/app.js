@@ -9,3 +9,8 @@ $('.loop').owlCarousel({
         }
     }
 });
+
+$('#menuToggle').click( function(){
+  $('.nav').toggleClass("active");
+  $('body').toggleClass("overflow-hidden");
+});

@@ -8,91 +8,125 @@
   <title>new template</title>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="d-flex align-items-center">
-        <div class="logo mr-auto">
-          <a href="#">
-            <img src="img/logo.png" alt="">
-            МастерМозаик
-          </a>
-        </div>
-        <nav class="nav">
-          <a href="#">
-            Укладка мозаики
-          </a>
-          <a href="#">
-            Монтаж мрамора и гранита
-          </a>
-          <a href="#">
-            Фотогалерея
-          </a>
-          <a href="#">
-            Отзывы
-          </a>
-          <a href="#">
-            Контакты
-          </a>
-        </nav>
-        <div class="tel-box">
-          <a href="tel:+8-925-844-95-90">
-            <img src="img/icon-phone.png" alt="">
-            8-925-844-95-90
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section class="start-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="start-section__title mb-4">
-            <span>Укладка мозаики, <br/>Укладка мрамора и гранита </span>более 25 лет Реализовали свыше 3000 проектов
-          </div>
-          <p>
-            100% гарантия качества на всё, что сделано нашими руками. В противном случае покроем 200% понесённых Вами затрат!
-          </p>
-          <div>
+    <div class="mainbg"></div>
+  <div class="main-bg">
+    <header class="header">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="logo mr-auto">
             <a href="#">
-              Наши работы
+              <img src="img/logo.png" alt="" class="regular-logo">
+              <img src="img/logo-white.png" alt="" class="logo-white">
+              МастерМозаик
+            </a>
+          </div>
+          <div id="menuToggle">
+				    <input type="checkbox">
+				    <span id="span1"></span>
+				    <span id="span2"></span>
+				    <span id="span3"></span>
+				  </div>
+          <nav class="nav">
+            <a href="#">
+              Укладка мозаики
+            </a>
+            <a href="#">
+              Монтаж мрамора и гранита
+            </a>
+            <a href="#">
+              Фотогалерея
+            </a>
+            <a href="#">
+              Отзывы
+            </a>
+            <a href="#">
+              Контакты
+            </a>
+            <div class="tel-box tel-box-mobile d-md-none">
+              <a href="tel:+8-925-844-95-90">
+                <img src="img/icon-phone.png" alt="">
+                8-925-844-95-90
+              </a>
+            </div>
+          </nav>
+          <div class="tel-box">
+            <a href="tel:+8-925-844-95-90">
+              <img src="img/icon-phone.png" alt="">
+              8-925-844-95-90
             </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section-about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="section-about__img">
-            <img src="img/hallway.jpg" alt="">
+    </header>
+    <section class="start-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="start-section__title mb-4">
+              <span>Укладка мозаики, <br/>Укладка мрамора и гранита </span>более 25 лет Реализовали свыше 3000 проектов
+            </div>
+            <p>
+              100% гарантия качества на всё, что сделано нашими руками. В противном случае покроем 200% понесённых Вами затрат!
+            </p>
+            <div>
+              <a href="#">
+                Наши работы
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="section-about__title">
-            Добро пожаловать на сайт компании «Мастер Мозаик»
-          </div>
-          <p>
-            Мы специализируемся на воплощении изысканных идей в декорировании помещений.
-            Наши мастера с опытом работы более 25 лет привнесут в Ваш дом
-            неповторимую частичку роскошного искусства и изящества.
-          </p>
-          <p>
-            Просмотрев галерею, можете убедиться в качестве произведений наших мастеров.
-            И в сравнении увидеть, как выполняют подобные работы «мастера на все руки»,
-            занимающиеся любыми отделочными работами, заманивая ценами 800р. за м2.
-          </p>
-          <div class="link mt-5">
-            <a href="#">
-              Подробнее
-            </a>
+          <div class="col-md-5 offset-lg-2">
+            <div class="callback_form">
+              <div class="callback_form__title">
+                Оставьте заявку
+              </div>
+              <p>
+                На бесплатный расчёт стоимости и консультацию
+              </p>
+              <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш имя">
+              <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш телефона">
+              <button type="submit" class="btn link">Отправить</button>
+              <p class="text-center">
+                Наш специалисть свяжется с Вами в течение <b>5 минут</b>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
+    <section class="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="section-about__img">
+              <img src="img/hallway.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="section-about__title">
+              Добро пожаловать на сайт компании «Мастер Мозаик»
+            </div>
+            <p>
+              Мы специализируемся на воплощении изысканных идей в декорировании помещений.
+              Наши мастера с опытом работы более 25 лет привнесут в Ваш дом
+              неповторимую частичку роскошного искусства и изящества.
+            </p>
+            <p>
+              Просмотрев галерею, можете убедиться в качестве произведений наших мастеров.
+              И в сравнении увидеть, как выполняют подобные работы «мастера на все руки»,
+              занимающиеся любыми отделочными работами, заманивая ценами 800р. за м2.
+            </p>
+            <div class="link mt-5">
+              <a href="#">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
   <section class="gallery">
     <div class="container">
       <div class="section-title">
@@ -183,7 +217,7 @@
               <div class="tab-content" id="galleryChoiceTabsContent">
                 <div class="tab-pane fade show active" id="galleryChoiceTabs1" role="tabpanel">
                   <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                       <div class="item-box">
                         <img src="img/gallery1.jpg" alt="">
                       </div>
@@ -341,7 +375,7 @@
             <p>
               Добрый день. Вместе со всей семьёй хотим оставить отзыв о компании Мастер Мозаик. По рекомендации друзей заказали полностью отделку ванной под ключ. Так как главной особенностью интерьера задумывалось большое панно с видом Венеции. Приехали мастера, расценили все работы, составили смету и приступили к работе. Управились за месяц, пока мы отдыхали в Европе. Выполненной работой остались полностью довольны. Качество укладки мозаики реально на высоте. Почти что не к чему придраться. Видели, как оказались уложены панно у знакомых. Наше панно, да и вообще вся мозаика в ванной, сразу видно, что уложена настоящими мастерами мозаики. Ещё раз спасибо. Рекомендуем обратиться всем, кто выбирает мастеров по укладке мозаики и хочет, чтобы всё было установлено профессионально и на высшем уровне.
             </p>
-            <div class="row mt-5">
+            <div class="row mt-5 reviews-img">
               <div class="col-md-2">
                 <img src="img/reviews1.jpg" alt="">
               </div>
@@ -371,15 +405,17 @@
     </div>
   </section>
   <section class="partners">
-      <div class="section-title">
-        Наши партнёры производители
+      <div class="container">
+        <div class="section-title">
+          Наши партнёры производители
+        </div>
+        <p>
+          Умеем работать с материалами любых марок.
+        </p>
+        <p>
+          Рекомендуем выбирать лучшие проверенные временем бренды.
+        </p>
       </div>
-      <p>
-        Умеем работать с материалами любых марок.
-      </p>
-      <p>
-        Рекомендуем выбирать лучшие проверенные временем бренды.
-      </p>
       <div class="loop owl-carousel owl-theme owl-loaded owl-drag mt-5">
         <img src="img/partners1.jpg" alt="">
         <img src="img/partners2.jpg" alt="">
@@ -395,7 +431,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-start">
+      <div class="d-md-flex justify-content-between align-items-start">
         <div>
           <a href="mailto:zakaz@master-mozaik.ru">
             <img src="img/icon-envelope.png" alt="">
@@ -437,7 +473,7 @@
           </button>
         </div>
       </div>
-      <div class="d-flex justify-content-around mt-5 text-white">
+      <div class="d-md-flex justify-content-around mt-5 text-white">
         <div>
           “ООО “МАСТЕР МОЗАИК”
         </div>
@@ -453,7 +489,11 @@
       </div>
     </div>
   </footer>
-
+  <div class="copyright">
+    <div class="container">
+      2004-2021 © Мастер Мозаик. Укладка мозаики в Москве.
+    </div>
+  </div>
 
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
