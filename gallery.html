@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>new template</title>
+</head>
+<body>
+
+    <header class="header">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="logo mr-auto">
+            <a href="#">
+              <img src="img/logo.png" alt="" class="regular-logo">
+              <img src="img/logo-white.png" alt="" class="logo-white">
+              МастерМозаик
+            </a>
+          </div>
+          <div id="menuToggle">
+				    <input type="checkbox">
+				    <span id="span1"></span>
+				    <span id="span2"></span>
+				    <span id="span3"></span>
+				  </div>
+          <nav class="nav">
+            <a href="#">
+              Укладка мозаики
+            </a>
+            <a href="#">
+              Монтаж мрамора и гранита
+            </a>
+            <a href="#">
+              Фотогалерея
+            </a>
+            <a href="#">
+              Отзывы
+            </a>
+            <a href="#">
+              Контакты
+            </a>
+            <div class="tel-box tel-box-mobile d-md-none">
+              <a href="tel:+8-925-844-95-90">
+                <img src="img/icon-phone.png" alt="">
+                8-925-844-95-90
+              </a>
+            </div>
+          </nav>
+          <div class="tel-box">
+            <a href="tel:+8-925-844-95-90">
+              <img src="img/icon-phone.png" alt="">
+              8-925-844-95-90
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  <section class="banner text-center p-113" style="background-image: url('img/banner3.jpg')">
+    <div class="container">
+      <div class="banner_title text">
+        Фотогалерея
+      </div>
+      <p>
+        Существуя на рынке с 2007 года, мы успели накопить достаточный
+        работы и мы готовы их представить Вам!
+      </p>
+      <button class="btn-text" data-target="#callbackModal" data-toggle="modal">
+         Звоните и заказывайте услугу по укладке мозаики прямо сейчас!
+      </button>
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="container">
+      <div class="section-title">
+        галерея выполненных проектов
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="nav nav-tabs galleryTabs" id="galleryTabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#galleryTabs1" role="tab" aria-selected="true">
+                Укладка мозаики в ванной комнате
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs2" role="tab" aria-selected="false">
+                Укладка мозаика на кухне «фартук»
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs3" role="tab" aria-selected="false">
+                Укладка мозаики в бассейне/хамам
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs4" role="tab" aria-selected="false">
+                Укладка мозаики в ванной комнате
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs5" role="tab" aria-selected="false">
+                Ванная и туалет
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs6" role="tab" aria-selected="false">
+                Прихожая и гостиная
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs7" role="tab" aria-selected="false">
+                Бассейн
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs8" role="tab" aria-selected="false">
+                Ванная
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs9" role="tab" aria-selected="false">
+                Гранитные ступени входа
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs10" role="tab" aria-selected="false">
+                Лестница из мрамора
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs11" role="tab" aria-selected="false">
+                Хаммам
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#galleryTabs12" role="tab" aria-selected="false">
+                Холл
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content" id="galleryTabsContent">
+            <div class="tab-pane fade show active" id="galleryTabs1" role="tabpanel">
+
+              <ul class="nav nav-tabs galleryChoiceTabs" id="galleryChoiceTabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#galleryChoiceTabs1" role="tab" aria-selected="true">
+                    Укладка мрамор и гранить
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#galleryChoiceTabs2" role="tab" aria-selected="false">
+                    Укладка мозаики
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content" id="galleryChoiceTabsContent">
+                <div class="tab-pane fade show active" id="galleryChoiceTabs1" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery1.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery1.jpg" alt="">
+                        </a>
+
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery2.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery2.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery3.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery3.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery4.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery4.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery5.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery5.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery6.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery6.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery7.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery7.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery8.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery8.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery9.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery9.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="galleryChoiceTabs2" role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery4.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery4.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery5.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery5.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery6.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery6.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery7.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery7.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery8.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery8.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="item-box">
+                        <a href="img/gallery9.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery9.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="galleryTabs2" role="tabpanel">
+              2
+            </div>
+            <div class="tab-pane fade" id="galleryTabs3" role="tabpanel">
+              3
+            </div>
+            <div class="tab-pane fade" id="galleryTabs4" role="tabpanel">
+              4
+            </div>
+            <div class="tab-pane fade" id="galleryTabs5" role="tabpanel">
+              5
+            </div>
+            <div class="tab-pane fade" id="galleryTabs6" role="tabpanel">
+              6
+            </div>
+            <div class="tab-pane fade" id="galleryTabs7" role="tabpanel">
+              7
+            </div>
+            <div class="tab-pane fade" id="galleryTabs8" role="tabpanel">
+              8
+            </div>
+            <div class="tab-pane fade" id="galleryTabs9" role="tabpanel">
+              9
+            </div>
+            <div class="tab-pane fade" id="galleryTabs10" role="tabpanel">
+              10
+            </div>
+            <div class="tab-pane fade" id="galleryTabs11" role="tabpanel">
+              11
+            </div>
+            <div class="tab-pane fade" id="galleryTabs12" role="tabpanel">
+              12
+            </div>
+          </div>
+
+          <button class="btn link w-100 p-4 text-uppercase mt-3">
+            Показать еще
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="partners pt-0">
+      <div class="container">
+        <div class="section-title">
+          Наши партнёры производители
+        </div>
+        <p>
+          Умеем работать с материалами любых марок.
+        </p>
+        <p>
+          Рекомендуем выбирать лучшие проверенные временем бренды.
+        </p>
+      </div>
+      <div class="loop owl-carousel owl-theme owl-loaded owl-drag mt-5">
+        <img src="img/partners1.jpg" alt="">
+        <img src="img/partners2.jpg" alt="">
+        <img src="img/partners3.jpg" alt="">
+        <img src="img/partners4.jpg" alt="">
+        <img src="img/partners5.jpg" alt="">
+        <img src="img/partners6.jpg" alt="">
+        <img src="img/partners7.jpg" alt="">
+        <img src="img/partners3.jpg" alt="">
+        <img src="img/partners4.jpg" alt="">
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-start">
+        <div>
+          <a href="mailto:zakaz@master-mozaik.ru">
+            <img src="img/icon-envelope.png" alt="">
+            zakaz@master-mozaik.ru
+          </a>
+          <a href="tel:+89258449590">
+            <img src="img/icon-phone.png" alt="">
+            8-925-844-95-90
+          </a>
+          <a href="#">
+            <img src="img/icon-skype.png" alt="">
+            master-mozaik.ru
+          </a>
+          <p>
+            Мастера выезжают по всей Московской
+            области, и по близлежащим регионам.
+          </p>
+        </div>
+        <div>
+          <a href="#">
+            Укладка мозаики
+          </a>
+          <a href="#">
+            Монтаж мрамора и гранита
+          </a>
+          <a href="#">
+            Фотогалерея
+          </a>
+          <a href="#">
+            Отзывы
+          </a>
+        </div>
+        <div>
+          <p>
+            Звонки принимаются ежедневно с 8:00 до 22:00. В остальное время оставляйте заявку на сайте, и наши мастера свяжутся с Вами рабочие часы.
+          </p>
+          <button class="btn btn-callback" data-target="#callbackModal" data-toggle="modal">
+            Обратный звонок
+          </button>
+        </div>
+      </div>
+      <div class="d-md-flex justify-content-around mt-5 text-white">
+        <div>
+          “ООО “МАСТЕР МОЗАИК”
+        </div>
+        <div>
+          ОГРН 1187746916895
+        </div>
+        <div>
+          ИНН 7751150700
+        </div>
+        <div>
+          КПП 775101001
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="container">
+      2004-2021 © Мастер Мозаик. Укладка мозаики в Москве.
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center d-block w-100" id="">Заказать звонок</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="callback_form">
+          <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш имя">
+          <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш телефона">
+          <button type="submit" class="btn link">Отправить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
