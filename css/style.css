@@ -414,6 +414,47 @@ p{
   color: #B6B6B6;
   padding: 15px 0;
 }
+.owl-carousel .owl-nav button{
+  font-size: 40px !important;
+  color: #000 !important;
+  margin: 10px;
+}
+.owl-carousel .owl-nav button:hover{
+  color: #FFB106 !important;
+}
+.owl-nav{
+  text-align: center;
+}
+.modal-header button{
+  position: absolute;
+  right: 5px;
+  top: -3px;
+  color: #000;
+  opacity: 1;
+  font-size: 32px;
+  padding: 0 !important;
+  z-index: 2;
+}
+.modal-header button:before{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #FFB106;
+  border-radius: 10px;
+  transform: rotate(-45deg);
+  z-index:-1;
+  left: -8px;
+  top: -1px;
+}
+.modal .callback_form{
+  max-width: 100%;
+  padding: 30px;
+  margin-left: 0;
+}
+.modal .callback_form:before{
+  display: none;
+}
 @media (min-width: 581px){
   #menuToggle {
     display: none;

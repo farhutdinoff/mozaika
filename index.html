@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>new template</title>
+
+  <style>
+    .nav a:nth-child(+3),
+    .nav a:nth-child(+4),
+    .nav a:nth-child(+5),
+    .tel-box a{
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
     <div class="mainbg"></div>
@@ -219,47 +229,66 @@
                   <div class="row">
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery1.jpg" alt="">
+                        <a href="img/gallery1.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery1.jpg" alt="">
+                        </a>
+
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery2.jpg" alt="">
+                        <a href="img/gallery2.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery2.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery3.jpg" alt="">
+                        <a href="img/gallery3.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery3.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery4.jpg" alt="">
+                        <a href="img/gallery4.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery4.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery5.jpg" alt="">
+                        <a href="img/gallery5.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery5.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery6.jpg" alt="">
+                        <a href="img/gallery6.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery6.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery7.jpg" alt="">
+                        <a href="img/gallery7.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery7.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery8.jpg" alt="">
+                        <a href="img/gallery8.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery8.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery9.jpg" alt="">
+                        <a href="img/gallery9.jpg" data-fancybox="gallery1">
+                          <img src="img/gallery9.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -268,32 +297,44 @@
                   <div class="row">
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery4.jpg" alt="">
+                        <a href="img/gallery4.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery4.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery5.jpg" alt="">
+                        <a href="img/gallery5.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery5.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery6.jpg" alt="">
+                        <a href="img/gallery6.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery6.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery7.jpg" alt="">
+                        <a href="img/gallery7.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery7.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery8.jpg" alt="">
+                        <a href="img/gallery8.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery8.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                     <div class="col-md-4 mb-4">
                       <div class="item-box">
-                        <img src="img/gallery9.jpg" alt="">
+                        <a href="img/gallery9.jpg" data-fancybox="gallery2">
+                          <img src="img/gallery9.jpg" alt="">
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -375,25 +416,31 @@
             <p>
               Добрый день. Вместе со всей семьёй хотим оставить отзыв о компании Мастер Мозаик. По рекомендации друзей заказали полностью отделку ванной под ключ. Так как главной особенностью интерьера задумывалось большое панно с видом Венеции. Приехали мастера, расценили все работы, составили смету и приступили к работе. Управились за месяц, пока мы отдыхали в Европе. Выполненной работой остались полностью довольны. Качество укладки мозаики реально на высоте. Почти что не к чему придраться. Видели, как оказались уложены панно у знакомых. Наше панно, да и вообще вся мозаика в ванной, сразу видно, что уложена настоящими мастерами мозаики. Ещё раз спасибо. Рекомендуем обратиться всем, кто выбирает мастеров по укладке мозаики и хочет, чтобы всё было установлено профессионально и на высшем уровне.
             </p>
-            <div class="row mt-5 reviews-img">
-              <div class="col-md-2">
+            <div>
+
+            </div>
+            <div class="mt-5 owl-carousel owl-theme owl-loaded owl-drag">
+              <a href="img/reviews1.jpg" data-fancybox="gallery">
                 <img src="img/reviews1.jpg" alt="">
-              </div>
-              <div class="col-md-2">
+              </a>
+              <a href="img/reviews2.jpg" data-fancybox="gallery">
                 <img src="img/reviews2.jpg" alt="">
-              </div>
-              <div class="col-md-2">
+              </a>
+              <a href="img/reviews3.jpg" data-fancybox="gallery">
                 <img src="img/reviews3.jpg" alt="">
-              </div>
-              <div class="col-md-2">
+              </a>
+              <a href="img/reviews4.jpg" data-fancybox="gallery">
                 <img src="img/reviews4.jpg" alt="">
-              </div>
-              <div class="col-md-2">
+              </a>
+              <a href="img/reviews5.jpg" data-fancybox="gallery">
                 <img src="img/reviews5.jpg" alt="">
-              </div>
-              <div class="col-md-2">
+              </a>
+              <a href="img/reviews6.jpg" data-fancybox="gallery">
                 <img src="img/reviews6.jpg" alt="">
-              </div>
+              </a>
+              <a href="img/reviews4.jpg" data-fancybox="gallery">
+                <img src="img/reviews4.jpg" alt="">
+              </a>
             </div>
           </div>
           <div class="tab-pane fade" id="reviewsTabs2" role="tabpanel">
@@ -468,7 +515,7 @@
           <p>
             Звонки принимаются ежедневно с 8:00 до 22:00. В остальное время оставляйте заявку на сайте, и наши мастера свяжутся с Вами рабочие часы.
           </p>
-          <button class="btn btn-callback">
+          <button class="btn btn-callback" data-target="#callbackModal" data-toggle="modal">
             Обратный звонок
           </button>
         </div>
@@ -495,9 +542,31 @@
     </div>
   </div>
 
+
+  <!-- Modal -->
+  <div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center d-block w-100" id="">Заказать звонок</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="callback_form">
+          <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш имя">
+          <input type="text" class="form-control" id="" value="" placeholder="Введите Ваш телефона">
+          <button type="submit" class="btn link">Отправить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

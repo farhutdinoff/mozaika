@@ -10,6 +10,18 @@ $('.loop').owlCarousel({
     }
 });
 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items: 2,
+    responsive:{
+        600:{
+            items:6
+        }
+    }
+})
+
 $('#menuToggle').click( function(){
   $('.nav').toggleClass("active");
   $('body').toggleClass("overflow-hidden");
