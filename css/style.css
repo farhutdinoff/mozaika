@@ -455,6 +455,46 @@ p{
 .modal .callback_form:before{
   display: none;
 }
+.p-113{
+  padding: 113px;
+}
+.btn-text{
+  font-weight: 700;
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: #3D2F91;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.section-price .section-title{
+  text-transform: none;
+}
+.table-striped tbody tr:nth-of-type(odd){
+  background-color: #F8F8F8;
+}
+.table td, .table th{
+  border: none;
+}
+.section-price__link a{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3D2F91;
+  text-decoration: underline;
+  transition: all .5s ease;
+}
+.gallery-box a img {
+    margin-bottom: 30px;
+}
+.nav a{
+  transition: all .5s ease;
+}
+.btn-text:hover,
+.nav a:hover,
+.section-price__link a:hover{
+  color: #FFB106;
+}
 @media (min-width: 581px){
   #menuToggle {
     display: none;
@@ -616,5 +656,8 @@ p{
   }
   .footer{
     text-align: center;
+  }
+  .p-113 {
+    padding: 45px;
   }
 }
